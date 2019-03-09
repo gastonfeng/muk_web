@@ -17,8 +17,8 @@
 #
 ###################################################################################
 
-import os
 import base64
+import os
 
 from odoo.tests import common
 

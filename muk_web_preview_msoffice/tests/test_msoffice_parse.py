@@ -17,8 +17,8 @@
 #
 ###################################################################################
 
-import os
 import logging
+import os
 import unittest
 
 from odoo.tests import common
