@@ -17,17 +17,16 @@
 #
 ###################################################################################
 
-import uuid
 import logging
 import mimetypes
+import uuid
 
 import werkzeug
+from odoo.addons.muk_utils.tools.http import get_response
+from odoo.addons.muk_utils.tools.http import make_error_response
 
 from odoo import _, http
 from odoo.http import request
-
-from odoo.addons.muk_utils.tools.http import get_response
-from odoo.addons.muk_utils.tools.http import make_error_response
 
 _logger = logging.getLogger(__name__)
 

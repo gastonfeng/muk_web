@@ -17,14 +17,13 @@
 #
 ###################################################################################
 
-import os
 import logging
+import os
 import unittest
-
-from urllib.parse import urlunparse
-from urllib.parse import urlparse
 from urllib.parse import parse_qsl
 from urllib.parse import urlencode
+from urllib.parse import urlparse
+from urllib.parse import urlunparse
 
 from odoo.tests import common
 

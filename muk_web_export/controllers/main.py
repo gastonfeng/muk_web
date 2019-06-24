@@ -17,13 +17,13 @@
 #
 ###################################################################################
 
-import os
 import logging
+import os
+
+from odoo.addons.muk_converter.tools import converter
 
 from odoo import http
 from odoo.http import request
-
-from odoo.addons.muk_converter.tools import converter
 
 _logger = logging.getLogger(__name__)
 
