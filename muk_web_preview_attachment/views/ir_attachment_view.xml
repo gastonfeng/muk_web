@@ -35,7 +35,7 @@
     <field name="model">ir.attachment</field>
     <field name="inherit_id" ref="mail.view_document_file_kanban"/>
     <field name="arch" type="xml">
-        <xpath expr="//div[@class='o_image']" position="attributes">
+        <xpath expr="//div[hasclass('o_image')]" position="attributes">
         	 <attribute name="t-att-data-id">record.id.raw_value</attribute>
         </xpath>
     </field>
